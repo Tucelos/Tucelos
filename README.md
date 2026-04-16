@@ -1,7 +1,7 @@
 # Hi there, I'm Tuigg Barcelos 👋
 
 ### Software Developer | MSc Student in Applied AI | Researcher
--
+---
 Sou um desenvolvedor de software e pesquisador focado no desenvolvimento de soluções inteligentes e seguras. Atualmente minhas linhas de pesquisa e desenvolvimento são em Inteligência Artificial, Cybersegurança e Engenharia de Software Aplicada. 
 ---
 
