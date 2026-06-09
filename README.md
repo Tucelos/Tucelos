@@ -38,8 +38,11 @@ Sou um desenvolvedor de software e pesquisador focado no desenvolvimento de solu
 
 ### 📜 Certificações
 
-- <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=qxgvf4er" width="22" height="22" align="center" alt="Badge"/> [**Inside Agentic AI: Foundations and Frontiers**](https://www.credential.net/b1129a1f-6ef7-47b9-bd08-5285e3e84036) - *Skillsoft* (09/06/2026)
-- <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=zm8b7hrh" width="22" height="22" align="center" alt="Badge"/> [**Securing AI: Introduction to LLM Security**](https://www.credential.net/5fce7aaa-7dc1-4226-bb87-624702130b23) - *Skillsoft* (08/06/2026)
+<a href="https://www.credential.net/b1129a1f-6ef7-47b9-bd08-5285e3e84036" target="_blank">
+  <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=qxgvf4er" width="90" height="90" title="Inside Agentic AI: Foundations and Frontiers - Skillsoft (09/06/2026)" alt="Inside Agentic AI: Foundations and Frontiers" />
+</a> &nbsp;&nbsp; <a href="https://www.credential.net/5fce7aaa-7dc1-4226-bb87-624702130b23" target="_blank">
+  <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=zm8b7hrh" width="90" height="90" title="Securing AI: Introduction to LLM Security - Skillsoft (08/06/2026)" alt="Securing AI: Introduction to LLM Security" />
+</a>
 
 <!-- END_SECTION:certifications -->
 

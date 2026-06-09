@@ -83,10 +83,17 @@ def update_readme(creds):
     if not creds:
         cert_section += "*Nenhuma certificação cadastrada ainda.*\n"
     else:
+        # Exibe os badges em formato de grade (lado a lado)
+        html_links = []
         for c in creds:
-            # Mostra o badge em miniatura se houver imagem
-            badge_img = f'<img src="{c["image"]}" width="22" height="22" align="center" alt="Badge"/> ' if c["image"] else ""
-            cert_section += f"- {badge_img}[**{c['name']}**]({c['url']}) - *{c['issuer']}* ({c['date']})\n"
+            if c["image"]:
+                tooltip = f"{c['name']} - {c['issuer']} ({c['date']})"
+                html_links.append(
+                    f'<a href="{c["url"]}" target="_blank">\n'
+                    f'  <img src="{c["image"]}" width="90" height="90" title="{tooltip}" alt="{c["name"]}" />\n'
+                    f'</a>'
+                )
+        cert_section += " &nbsp;&nbsp; ".join(html_links) + "\n"
         
     # Substitui o bloco entre os marcadores <!-- START_SECTION:certifications --> e <!-- END_SECTION:certifications -->
     start_marker = "<!-- START_SECTION:certifications -->"
