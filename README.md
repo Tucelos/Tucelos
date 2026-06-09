@@ -7,7 +7,7 @@ Sou um desenvolvedor de software e pesquisador focado no desenvolvimento de solu
 
 ### 🚀 Sobre Mim
 
-- 🔭 **Pesquisa Atual:** Desenvolvimento de Defesas para Poisoning Attacks a modelos de Machine Learning em Collaborative Network Intrusion Detection System (CIDS).
+- 🔭 **Pesquisa Atual:** Desenvolvimento de métodos de mitigação a vulnerabilidades intrisicas de sistemas agenticos que utilizam Model Context Protocol.
 - 🌱 **Evolução Contínua:** Pós-graduando em **Ciência de Dados** e explorando a interseção entre IA e Engenharia de Software.
 - 🎓 **Formação:** Mestrando em Engenharia de Software (**Universidade Federal do Pampa**), Pós Graduando em Ciência de Dados (**Centro Universitário Leonardo D'Vinci**) e Graduado em Análise e Desenvolvimento de Sistemas (**Instituto Federal Farroupilha**).
 - 🏛️ **Atuação Institucional:** Presidente da Câmara Especializada de Extensão, Pesquisa e Pós-Graduação no Conselho Superior do IFFAR e Membro do Ramo Estudantil da IEEE Unipampa.
