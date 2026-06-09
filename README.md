@@ -34,6 +34,17 @@ Sou um desenvolvedor de software e pesquisador focado no desenvolvimento de solu
 
 ---
 
+<!-- START_SECTION:certifications -->
+
+### 📜 Certificações
+
+- <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=qxgvf4er" width="22" height="22" align="center" alt="Badge"/> [**Inside Agentic AI: Foundations and Frontiers**](https://www.credential.net/b1129a1f-6ef7-47b9-bd08-5285e3e84036) - *Skillsoft* (09/06/2026)
+- <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=zm8b7hrh" width="22" height="22" align="center" alt="Badge"/> [**Securing AI: Introduction to LLM Security**](https://www.credential.net/5fce7aaa-7dc1-4226-bb87-624702130b23) - *Skillsoft* (08/06/2026)
+
+<!-- END_SECTION:certifications -->
+
+---
+
 ### 📫 Contacto
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tuiggbarcelos)
