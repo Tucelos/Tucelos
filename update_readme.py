@@ -48,6 +48,9 @@ def parse_credentials_from_dir(directory_path):
                 elif isinstance(image, str):
                     image_url = image
                 
+                # Pega a data de criação precisa do proof para ordenação detalhada
+                proof_created = data.get("proof", {}).get("created", "")
+                
                 # Armazena usando o cred_url como chave para remover duplicatas
                 # (já que temos versões -ob3 e -w3cvc da mesma credencial)
                 credentials[cred_url] = {
@@ -55,7 +58,9 @@ def parse_credentials_from_dir(directory_path):
                     "issuer": issuer_name,
                     "date": date_formatted,
                     "image": image_url,
-                    "url": cred_url
+                    "url": cred_url,
+                    "raw_date": valid_from_str,
+                    "created_at": proof_created
                 }
                 print(f"Processado [{directory_path}]: {name} (Emissor: {issuer_name})")
             except Exception as e:
@@ -63,6 +68,16 @@ def parse_credentials_from_dir(directory_path):
                 
     # Ordena as credenciais por data de emissão decrescente (mais recentes primeiro)
     def get_sort_key(item):
+        try:
+            if item.get("created_at"):
+                return datetime.fromisoformat(item["created_at"].replace("Z", "+00:00"))
+        except Exception:
+            pass
+        try:
+            if item.get("raw_date"):
+                return datetime.fromisoformat(item["raw_date"].replace("Z", "+00:00"))
+        except Exception:
+            pass
         try:
             return datetime.strptime(item["date"], "%d/%m/%Y")
         except Exception:
