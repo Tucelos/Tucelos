@@ -46,7 +46,11 @@ Sou um desenvolvedor de software e pesquisador focado no desenvolvimento de solu
 
 ### 📚 Cursos
 
-<a href="https://www.credential.net/19777d65-7109-4063-b01c-b12cb060db44" target="_blank">
+<a href="https://www.credential.net/d1fe0ee1-15de-4f74-9546-3f9fb7cc2756" target="_blank">
+  <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=ylvmm3bl" width="95" height="95" title="Track 1: Agentic AI - Foundations, Architectures, and Frameworks - Skillsoft (09/06/2026)" alt="Track 1: Agentic AI - Foundations, Architectures, and Frameworks" />
+</a> &nbsp;&nbsp; <a href="https://www.credential.net/a9916bdb-a2f2-426a-a902-a6f9b3a31ce7" target="_blank">
+  <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=1xvod8ir" width="95" height="95" title="Agentic AI Design Patterns: Reusable Blueprints for Smarter Systems - Skillsoft (09/06/2026)" alt="Agentic AI Design Patterns: Reusable Blueprints for Smarter Systems" />
+</a> &nbsp;&nbsp; <a href="https://www.credential.net/19777d65-7109-4063-b01c-b12cb060db44" target="_blank">
   <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=7518kkly" width="95" height="95" title="Inside Agentic AI: Popular Frameworks - Skillsoft (09/06/2026)" alt="Inside Agentic AI: Popular Frameworks" />
 </a> &nbsp;&nbsp; <a href="https://www.credential.net/48e56d03-fa7e-4462-b2d2-cbb71f07a913" target="_blank">
   <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=q1njp6wy" width="95" height="95" title="Inside Agentic AI: Core Architecture of Agentic Systems - Skillsoft (09/06/2026)" alt="Inside Agentic AI: Core Architecture of Agentic Systems" />
