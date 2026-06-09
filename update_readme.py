@@ -90,7 +90,7 @@ def update_readme(creds):
                 tooltip = f"{c['name']} - {c['issuer']} ({c['date']})"
                 html_links.append(
                     f'<a href="{c["url"]}" target="_blank">\n'
-                    f'  <img src="{c["image"]}" width="90" height="90" title="{tooltip}" alt="{c["name"]}" />\n'
+                    f'  <img src="{c["image"]}" width="100" height="100" title="{tooltip}" alt="{c["name"]}" />\n'
                     f'</a>'
                 )
         cert_section += " &nbsp;&nbsp; ".join(html_links) + "\n"
