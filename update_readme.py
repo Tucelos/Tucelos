@@ -5,19 +5,20 @@ from datetime import datetime
 
 # Caminhos relativos ao repositório git (que será a pasta Tucelos)
 README_PATH = "README.md"
-CREDENTIALS_DIR = "credentials"
+COURSES_DIR = "cursos"
+CERTS_DIR = "certificacoes"
 
-def parse_credentials():
+def parse_credentials_from_dir(directory_path):
     credentials = {}
     
-    if not os.path.exists(CREDENTIALS_DIR):
-        print(f"Diretório '{CREDENTIALS_DIR}' não encontrado.")
+    if not os.path.exists(directory_path):
+        print(f"Diretório '{directory_path}' não encontrado.")
         return []
 
     # Lista todos os arquivos JSON que começam com "credential-"
-    for filename in os.listdir(CREDENTIALS_DIR):
+    for filename in os.listdir(directory_path):
         if filename.endswith(".json") and filename.startswith("credential-"):
-            filepath = os.path.join(CREDENTIALS_DIR, filename)
+            filepath = os.path.join(directory_path, filename)
             try:
                 with open(filepath, "r", encoding="utf-8") as f:
                     data = json.load(f)
@@ -56,9 +57,9 @@ def parse_credentials():
                     "image": image_url,
                     "url": cred_url
                 }
-                print(f"Processado: {name} (Emissor: {issuer_name})")
+                print(f"Processado [{directory_path}]: {name} (Emissor: {issuer_name})")
             except Exception as e:
-                print(f"Erro ao processar o arquivo {filename}: {e}")
+                print(f"Erro ao processar o arquivo {filename} em {directory_path}: {e}")
                 
     # Ordena as credenciais por data de emissão decrescente (mais recentes primeiro)
     def get_sort_key(item):
@@ -70,18 +71,10 @@ def parse_credentials():
     sorted_creds = sorted(credentials.values(), key=get_sort_key, reverse=True)
     return sorted_creds
 
-def update_readme(creds):
-    if not os.path.exists(README_PATH):
-        print(f"Erro: '{README_PATH}' não encontrado no diretório atual ({os.getcwd()}).")
-        return
-        
-    with open(README_PATH, "r", encoding="utf-8") as f:
-        readme_content = f.read()
-        
-    # Gera a seção das certificações formatada
-    cert_section = "### 📜 Certificações\n\n"
+def generate_section_content(creds, title, image_size, is_empty_placeholder):
+    section = f"### {title}\n\n"
     if not creds:
-        cert_section += "*Nenhuma certificação cadastrada ainda.*\n"
+        section += f"{is_empty_placeholder}\n"
     else:
         # Exibe os badges em formato de grade (lado a lado)
         html_links = []
@@ -90,25 +83,59 @@ def update_readme(creds):
                 tooltip = f"{c['name']} - {c['issuer']} ({c['date']})"
                 html_links.append(
                     f'<a href="{c["url"]}" target="_blank">\n'
-                    f'  <img src="{c["image"]}" width="100" height="100" title="{tooltip}" alt="{c["name"]}" />\n'
+                    f'  <img src="{c["image"]}" width="{image_size}" height="{image_size}" title="{tooltip}" alt="{c["name"]}" />\n'
                     f'</a>'
                 )
-        cert_section += " &nbsp;&nbsp; ".join(html_links) + "\n"
+        section += " &nbsp;&nbsp; ".join(html_links) + "\n"
+    return section
+
+def update_readme(certifications, courses):
+    if not os.path.exists(README_PATH):
+        print(f"Erro: '{README_PATH}' não encontrado no diretório atual ({os.getcwd()}).")
+        return
+        
+    with open(README_PATH, "r", encoding="utf-8") as f:
+        readme_content = f.read()
+        
+    # Gera a seção das certificações formatada
+    cert_section = generate_section_content(
+        certifications,
+        "📜 Certificações",
+        image_size=110,
+        is_empty_placeholder="*Nenhuma certificação cadastrada ainda.*"
+    )
+
+    # Gera a seção dos cursos formatada
+    courses_section = generate_section_content(
+        courses,
+        "📚 Cursos",
+        image_size=95,
+        is_empty_placeholder="*Nenhum curso cadastrado ainda.*"
+    )
         
     # Substitui o bloco entre os marcadores <!-- START_SECTION:certifications --> e <!-- END_SECTION:certifications -->
-    start_marker = "<!-- START_SECTION:certifications -->"
-    end_marker = "<!-- END_SECTION:certifications -->"
-    
-    if start_marker in readme_content and end_marker in readme_content:
-        pattern = re.compile(rf"{start_marker}.*?{end_marker}", re.DOTALL)
-        new_content = pattern.sub(f"{start_marker}\n\n{cert_section}\n{end_marker}", readme_content)
-        
-        with open(README_PATH, "w", encoding="utf-8") as f:
-            f.write(new_content)
-        print("README.md atualizado com sucesso!")
+    start_cert = "<!-- START_SECTION:certifications -->"
+    end_cert = "<!-- END_SECTION:certifications -->"
+    if start_cert in readme_content and end_cert in readme_content:
+        pattern = re.compile(rf"{start_cert}.*?{end_cert}", re.DOTALL)
+        readme_content = pattern.sub(f"{start_cert}\n\n{cert_section}\n{end_cert}", readme_content)
     else:
-        print("Marcadores de seção não encontrados no README.md.")
+        print("Marcadores de certificações não encontrados no README.md.")
+        
+    # Substitui o bloco entre os marcadores <!-- START_SECTION:courses --> e <!-- END_SECTION:courses -->
+    start_courses = "<!-- START_SECTION:courses -->"
+    end_courses = "<!-- END_SECTION:courses -->"
+    if start_courses in readme_content and end_courses in readme_content:
+        pattern = re.compile(rf"{start_courses}.*?{end_courses}", re.DOTALL)
+        readme_content = pattern.sub(f"{start_courses}\n\n{courses_section}\n{end_courses}", readme_content)
+    else:
+        print("Marcadores de cursos não encontrados no README.md.")
+        
+    with open(README_PATH, "w", encoding="utf-8") as f:
+        f.write(readme_content)
+    print("README.md atualizado com sucesso!")
 
 if __name__ == "__main__":
-    creds = parse_credentials()
-    update_readme(creds)
+    certifications = parse_credentials_from_dir(CERTS_DIR)
+    courses = parse_credentials_from_dir(COURSES_DIR)
+    update_readme(certifications, courses)

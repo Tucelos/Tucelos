@@ -38,17 +38,25 @@ Sou um desenvolvedor de software e pesquisador focado no desenvolvimento de solu
 
 ### 📜 Certificações
 
-<a href="https://www.credential.net/19777d65-7109-4063-b01c-b12cb060db44" target="_blank">
-  <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=7518kkly" width="100" height="100" title="Inside Agentic AI: Popular Frameworks - Skillsoft (09/06/2026)" alt="Inside Agentic AI: Popular Frameworks" />
-</a> &nbsp;&nbsp; <a href="https://www.credential.net/48e56d03-fa7e-4462-b2d2-cbb71f07a913" target="_blank">
-  <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=q1njp6wy" width="100" height="100" title="Inside Agentic AI: Core Architecture of Agentic Systems - Skillsoft (09/06/2026)" alt="Inside Agentic AI: Core Architecture of Agentic Systems" />
-</a> &nbsp;&nbsp; <a href="https://www.credential.net/b1129a1f-6ef7-47b9-bd08-5285e3e84036" target="_blank">
-  <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=qxgvf4er" width="100" height="100" title="Inside Agentic AI: Foundations and Frontiers - Skillsoft (09/06/2026)" alt="Inside Agentic AI: Foundations and Frontiers" />
-</a> &nbsp;&nbsp; <a href="https://www.credential.net/5fce7aaa-7dc1-4226-bb87-624702130b23" target="_blank">
-  <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=zm8b7hrh" width="100" height="100" title="Securing AI: Introduction to LLM Security - Skillsoft (08/06/2026)" alt="Securing AI: Introduction to LLM Security" />
-</a>
+*Nenhuma certificação cadastrada ainda.*
 
 <!-- END_SECTION:certifications -->
+
+<!-- START_SECTION:courses -->
+
+### 📚 Cursos
+
+<a href="https://www.credential.net/19777d65-7109-4063-b01c-b12cb060db44" target="_blank">
+  <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=7518kkly" width="95" height="95" title="Inside Agentic AI: Popular Frameworks - Skillsoft (09/06/2026)" alt="Inside Agentic AI: Popular Frameworks" />
+</a> &nbsp;&nbsp; <a href="https://www.credential.net/48e56d03-fa7e-4462-b2d2-cbb71f07a913" target="_blank">
+  <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=q1njp6wy" width="95" height="95" title="Inside Agentic AI: Core Architecture of Agentic Systems - Skillsoft (09/06/2026)" alt="Inside Agentic AI: Core Architecture of Agentic Systems" />
+</a> &nbsp;&nbsp; <a href="https://www.credential.net/b1129a1f-6ef7-47b9-bd08-5285e3e84036" target="_blank">
+  <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=qxgvf4er" width="95" height="95" title="Inside Agentic AI: Foundations and Frontiers - Skillsoft (09/06/2026)" alt="Inside Agentic AI: Foundations and Frontiers" />
+</a> &nbsp;&nbsp; <a href="https://www.credential.net/5fce7aaa-7dc1-4226-bb87-624702130b23" target="_blank">
+  <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=zm8b7hrh" width="95" height="95" title="Securing AI: Introduction to LLM Security - Skillsoft (08/06/2026)" alt="Securing AI: Introduction to LLM Security" />
+</a>
+
+<!-- END_SECTION:courses -->
 
 ---
 

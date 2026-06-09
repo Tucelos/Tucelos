@@ -3,7 +3,8 @@ name: Atualizar Certificações no README
 on:
   push:
     paths:
-      - 'credentials/credential-*.json' # O script só roda se você adicionar ou alterar um JSON de certificado na pasta credentials
+      - 'certificacoes/credential-*.json'
+      - 'cursos/credential-*.json'
   workflow_dispatch: # Permite execução manual pela aba "Actions" no GitHub
 
 jobs:
