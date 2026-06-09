@@ -38,7 +38,9 @@ Sou um desenvolvedor de software e pesquisador focado no desenvolvimento de solu
 
 ### 📜 Certificações
 
-<a href="https://www.credential.net/48e56d03-fa7e-4462-b2d2-cbb71f07a913" target="_blank">
+<a href="https://www.credential.net/19777d65-7109-4063-b01c-b12cb060db44" target="_blank">
+  <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=7518kkly" width="100" height="100" title="Inside Agentic AI: Popular Frameworks - Skillsoft (09/06/2026)" alt="Inside Agentic AI: Popular Frameworks" />
+</a> &nbsp;&nbsp; <a href="https://www.credential.net/48e56d03-fa7e-4462-b2d2-cbb71f07a913" target="_blank">
   <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=q1njp6wy" width="100" height="100" title="Inside Agentic AI: Core Architecture of Agentic Systems - Skillsoft (09/06/2026)" alt="Inside Agentic AI: Core Architecture of Agentic Systems" />
 </a> &nbsp;&nbsp; <a href="https://www.credential.net/b1129a1f-6ef7-47b9-bd08-5285e3e84036" target="_blank">
   <img src="https://pdf.ms.credential.net/badge/image?env=production&credential=qxgvf4er" width="100" height="100" title="Inside Agentic AI: Foundations and Frontiers - Skillsoft (09/06/2026)" alt="Inside Agentic AI: Foundations and Frontiers" />
