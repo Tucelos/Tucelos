@@ -2,14 +2,14 @@
 
 ### Software Developer | MSc Student in Applied AI | Researcher
 
-Sou um desenvolvedor de software e pesquisador focado no desenvolvimento de soluções inteligentes e seguras. Atualmente minhas linhas de pesquisa e desenvolvimento são em Inteligência Artificial, Cybersegurança e Engenharia de Software Aplicada. 
+Sou um desenvolvedor de software e pesquisador do AI Horizon Labs focado no desenvolvimento de soluções inteligentes e seguras. Atualmente minhas linhas de pesquisa e desenvolvimento são em Inteligência Artificial, Cibersegurança inteligente, sistemas distribuidos  e Engenharia de Software Aplicada. 
 ---
 
 ### 🚀 Sobre Mim
 
 - 🔭 **Pesquisa Atual:** Desenvolvimento de métodos de mitigação a vulnerabilidades intrínsecas de Comunicação entre Agentes de IA Baseados em LLMs.
-- 🌱 **Evolução Contínua:** Pós-graduado em **Ciência de Dados** e explorando a interseção entre IA e Engenharia de Software.
-- 🎓 **Formação:** Mestrando em Engenharia de Software (**Universidade Federal do Pampa**), ESpecialização em Ciência de Dados (**Centro Universitário Leonardo D'Vinci**) e Graduado em Análise e Desenvolvimento de Sistemas (**Instituto Federal Farroupilha**).
+- 🌱 **Evolução Contínua:** Mestrando em Engenharia de Software (**PPGES - UNIPAMPA**) e explorando a interseção entre IA e Engenharia de Software.
+- 🎓 **Formação:** Mestrando em Engenharia de Software (**Universidade Federal do Pampa**), Especialização em Ciência de Dados (**Centro Universitário Leonardo D'Vinci**) e Graduado em Análise e Desenvolvimento de Sistemas (**Instituto Federal Farroupilha**).
 - 🏛️ **Atuação Institucional:** Presidente da Câmara Especializada de Extensão, Pesquisa e Pós-Graduação no Conselho Superior do IFFAR e Membro da APG UNIPAMPA.
 
 ---
