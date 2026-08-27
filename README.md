@@ -7,9 +7,9 @@ Sou um desenvolvedor de software e pesquisador focado no desenvolvimento de solu
 
 ### 🚀 Sobre Mim
 
-- 🔭 **Pesquisa Atual:** Desenvolvimento de métodos de mitigação a vulnerabilidades intrínsecas de sistemas agenticos que utilizam Model Context Protocol.
-- 🌱 **Evolução Contínua:** Pós-graduando em **Ciência de Dados** e explorando a interseção entre IA e Engenharia de Software.
-- 🎓 **Formação:** Mestrando em Engenharia de Software (**Universidade Federal do Pampa**), Pós Graduando em Ciência de Dados (**Centro Universitário Leonardo D'Vinci**) e Graduado em Análise e Desenvolvimento de Sistemas (**Instituto Federal Farroupilha**).
+- 🔭 **Pesquisa Atual:** Desenvolvimento de métodos de mitigação a vulnerabilidades intrínsecas de Comunicação entre Agentes de IA Baseados em LLMs.
+- 🌱 **Evolução Contínua:** Pós-graduado em **Ciência de Dados** e explorando a interseção entre IA e Engenharia de Software.
+- 🎓 **Formação:** Mestrando em Engenharia de Software (**Universidade Federal do Pampa**), ESpecialização em Ciência de Dados (**Centro Universitário Leonardo D'Vinci**) e Graduado em Análise e Desenvolvimento de Sistemas (**Instituto Federal Farroupilha**).
 - 🏛️ **Atuação Institucional:** Presidente da Câmara Especializada de Extensão, Pesquisa e Pós-Graduação no Conselho Superior do IFFAR e Membro da APG UNIPAMPA.
 
 ---
